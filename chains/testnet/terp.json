@@ -1,6 +1,6 @@
 {
     "chain_name": "terp",
-    "api": ["https://terp-testnet-api.itrocket.net"],
+    "api": ["https://terp-testnet-api.it.net"],
     "rpc": ["https://terp-testnet-rpc.itrocket.net"],
     "coin_type": 118,
     "min_tx_fee": 200,
