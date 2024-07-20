@@ -1,4 +1,4 @@
-<h1>ITRocket Explorer</h1>
+<h1>ZeycaNode Explorer</h1>
 
 install deps
 
