@@ -8,14 +8,14 @@
   "coin_type": "118",
   "min_tx_fee": "800",
   "addr_prefix": "uptick",
-  "logo": "https://www.itrocket.net/_next/static/media/uptick.c7f38cf8.jpg",
+  "logo": "https://r.resimlink.com/W2iVPH5MDpa.png",
   "assets": [
     {
       "base": "auptick",
       "symbol": "UPTICK",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://www.itrocket.net/_next/static/media/uptick.c7f38cf8.jpg"
+      "logo": "https://r.resimlink.com/W2iVPH5MDpa.png"
     }
   ]
 }
