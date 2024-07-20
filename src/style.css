@@ -46,7 +46,7 @@ body {
 }
 
 :root {
-  --text-main: #333;
+  --text-main: #476031;
   --text-secondary: #4b525d;
   --bg-active: #fbfbfc;
 }
@@ -54,8 +54,8 @@ body {
 html.dark,
 html[data-theme='dark'] {
   --text-main: #f7f7f7;
-  --text-secondary: #6f6e84;
-  --bg-active: #242b40;
+  --text-secondary: #c3c1e3;
+  --bg-active: hwb(231 15% 48%);
 }
 
 .table th:first-child {
