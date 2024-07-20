@@ -22,7 +22,7 @@ const wasmStore = useWasmStore();
 function loadContract(pageNum: number) {
   const pr = new PageRequest();
   pr.setPage(pageNum);
-  if(String(props.code_id).search(/^[\d]+$/) > -1){
+  if(String(props.code_id).(/^[\d]+$/) > -1){
     // query with code id
     wasmStore.wasmClient.getWasmCodeContracts(props.code_id, pr).then((x) => {
       response.value = x;
