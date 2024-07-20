@@ -39,10 +39,12 @@ body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1a2fa7; /* Zemin rengi */
+  color: var(--text-main);
 }
 
 :root {
@@ -56,6 +58,18 @@ html[data-theme='dark'] {
   --text-main: #f7f7f7;
   --text-secondary: #c3c1e3;
   --bg-active: hwb(231 15% 48%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d62a55; /* Başlık yazısı rengi */
+}
+
+.sidebar {
+  color: #bfde4; /* Sol sekmedeki yazıların rengi */
+}
+
+.sidebar a {
+  color: #bfde4; /* Sol sekmedeki linklerin rengi */
 }
 
 .table th:first-child {
@@ -77,3 +91,4 @@ html[data-theme='dark'] {
   opacity: 0;
   transform: translateY(-calc(15%));
 }
+
